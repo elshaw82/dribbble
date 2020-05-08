@@ -10,7 +10,7 @@ body {
     font-weight: 300;
     color:#1d1d1f;
     display:flex;
-    margin-top: 5%;
+    margin-top: 8%;
     justify-content: center;
 }
 
@@ -18,16 +18,19 @@ body {
     display: flex;
     background-color: #ffffff;
     width: 80%;
+    height: 500px
 }
 
 .left {
     width: 45%;
-    padding:25px;
+    padding:80px;
     height:627px;
 }
 
 h1 {
     font-weight: 900;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 .logo-area {
@@ -40,6 +43,8 @@ h1 {
 
 p {
     font-size: 14px;
+    padding-bottom: 50px;
+    font-weight: 900;
 }
 
 .button {
@@ -64,4 +69,28 @@ p {
     width:60%;
     background-color: #ff559d;
     height:100%;
+}
+
+.navigation {
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 18px;
+    
+    width:60%;
+    margin:auto;  
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:12px;
+    list-style: none;
+    padding:5px;
+    font-weight:bold;
+}
+
+li {
+    padding-left: 10px;
+    padding-right:10px;
+    color:#ffffff;
 }
